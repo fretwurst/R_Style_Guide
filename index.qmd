@@ -1,0 +1,18 @@
+# Intro {-}
+
+Dieser Style Guide umfasst Empfehlungen, die die Arbeit mit R etwas vereinheitlichen soll, wo es sinnvoll erscheint, damit in der Lehre und in Projekten gut zusammengearbeitet werden kann und nicht alles immer zu fremd aussieht. 
+
+Two R packages support this style guide:
+
+*   [styler](http://styler.r-lib.org) allows you to interactively restyle
+    selected text, files, or entire projects. It includes an RStudio add-in,
+    the easiest way to re-style existing code.
+    
+    ```{r, echo = FALSE, fig.align = "center"}
+    knitr::include_graphics("styler-addin.png", dpi = 220)
+    ```
+
+    
+*   [lintr](https://github.com/jimhester/lintr) performs automated checks
+    to confirm that you conform to the style guide.
+

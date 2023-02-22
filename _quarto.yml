@@ -1,0 +1,51 @@
+project:
+  title: "R_Style_Guide"
+  type: book
+  output-dir: "R_Style_Guide"
+
+book:
+  title: "R Empfehlungen"
+  author: "Anne, Maud, Ben"
+  date: "1/9/2023"
+
+  chapters:
+    - index.qmd
+#    - analyses.qmd
+    - files.qmd
+    - syntax.qmd
+    
+
+  downloads: [pdf]
+
+
+# bibliography: files/references.bib
+
+format:
+  html:
+    page-navigation: true
+    theme: cosmo
+    toc-depth: 4
+    number-sections: true
+    favicon: files/favicon/RIKMZ.png
+    toc-title: "Auf dieser Seite"
+    toc: true
+    toc-location: right
+    max-width: 4500px
+    css:
+    - www/webex.css
+    include-after-body: www/webex.js
+    sidebar:
+      style: "docked"
+      search: true
+
+  # pdf:
+  #   documentclass: scrreport
+  #   template: files/TeX_Vorlage.tex
+  #   number-sections: TRUE
+  #   keep-tex: true
+  #   csquotes: true
+
+prefer-html: true
+
+editor:
+  render-on-save: true
